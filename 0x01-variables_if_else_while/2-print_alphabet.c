@@ -1,24 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Etry point
+ * main -Etry point
  *
- * Description: print all alphabet letters
+ * Desciption: print all alphabet letters
  *
- * Retur: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
+
 {
-	char ch = 'a';
+	char A;
 
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
+	for (A = 'a'; A <= 'z' ; A++)
+	putchar(A);
 	putchar('\n');
-
 	return (0);
 }
-
