@@ -19,7 +19,7 @@ int main(void)
 	{
 	if (A != B)
 	{
-	putcahr(A);
+	putchar(A);
 	putchar(B);
 	if (A == '8' && B == '9')
 	continue;
