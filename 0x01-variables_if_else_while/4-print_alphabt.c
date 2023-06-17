@@ -20,5 +20,7 @@ int main(void)
 	if (ch != E && ch != Q)
 	putchar(ch)
 	}
+	putchar('\n')
+	return (0)
 }
 
