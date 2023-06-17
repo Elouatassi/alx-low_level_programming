@@ -16,7 +16,7 @@ int main(void)
 	for (n = '0'; n <= '9'; n++)
 	putchar(n);
 
-	for (a = 'a'; a <= 'z'; a++)
+	for (a = 'a'; a <= 'f'; a++)
 	putchar(a);
 	putchar('\n');
 
