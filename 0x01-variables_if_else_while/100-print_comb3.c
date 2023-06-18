@@ -10,18 +10,18 @@
 
 int main(void)
 {
-	int A, B;
+	int a, b;
 
-	for (A = '0'; A < '9'; A++)
+	for (a = '0'; a < '9'; a++)
 	{
 
-	for (B = A + 1; A <= '9'; B++)
+	for (b = a + 1; b <= '9'; b++)
 	{
-	if (A != B)
+	if (a != b)
 	{
-	putchar(A);
-	putchar(B);
-	if (A == '8' && B == '9')
+	putchar(a);
+	putchar(b);
+	if (a == '8' && b == '9')
 	continue;
 	putchar(',');
 	putchar(' ');
