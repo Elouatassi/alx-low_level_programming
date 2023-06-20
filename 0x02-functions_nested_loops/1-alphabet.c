@@ -2,12 +2,12 @@
 
 /**
  * print_alphabet - make alphabet in lowercase
- * Return: 0
+ * Return: voidi
 */
 
 void print_alphabet(void)
 {
-	char c;
+	int c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
