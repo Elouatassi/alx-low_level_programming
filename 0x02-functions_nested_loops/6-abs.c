@@ -8,10 +8,10 @@
  * Return: absolute value of number or 0
 */
 
-int _abs(int)
+int _abs(int n)
 {
 
-	if (n <0)
+	if (n < 0)
 	{
 	int abs;
 	abs = n * -1;
@@ -19,5 +19,3 @@ int _abs(int)
 	}
 	return (n);
 }
-
-
