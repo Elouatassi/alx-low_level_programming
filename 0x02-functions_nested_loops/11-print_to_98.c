@@ -18,17 +18,17 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar(' ');
 		}
-		else
+	}
+	else
+	{
+		for (i = n; i < 98; i--)
 		{
-			for (i = n; i < 98; i--)
-			{
-				_putchar(i);
-				_putchar(',');
-				_putchar(' ');
-			}
+			_putchar(i);
+			_putchar(',');
+			_putchar(' ');
 		}
 	}
 	_putchar("98");
 	_Putchar("\n");
-	return (0)
+	return (0);
 }
