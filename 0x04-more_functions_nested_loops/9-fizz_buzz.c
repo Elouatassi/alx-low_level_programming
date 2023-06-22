@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * main - prints a Fizz Buzz program
+ * main - prints the numbers from 1 to 100
+ *	numbers are multiples of three print Fizz
+ *	numbers are multiples of five print Buzz
+ *	numbers which are multiples of both three and five print FizzBuzz
+ *
  * Return: Always 0 (Success)
 */
 
