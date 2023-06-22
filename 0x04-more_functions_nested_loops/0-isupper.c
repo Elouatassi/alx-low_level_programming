@@ -3,14 +3,14 @@
 /**
  * _isupper - check if n is upper
  *
- * @n: input for alphabet
+ * @c: input for alphabet
  *
  * Return: 1 if its uppercase, 0 if not
 */
 
-int _isupper(int n)
+int _isupper(int c)
 {
-	if (n >= 65 && n <= 90)
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
