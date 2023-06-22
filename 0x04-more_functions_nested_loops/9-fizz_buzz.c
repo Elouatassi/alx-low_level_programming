@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints FizzBuzz numbers
+ * main - prints a Fizz Buzz program
  * Return: Always 0 (Success)
 */
 
