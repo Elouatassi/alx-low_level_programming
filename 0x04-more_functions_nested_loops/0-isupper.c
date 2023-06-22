@@ -5,7 +5,7 @@
  *
  * @n: input for alphabet
  *
- * Return: 1 if its uppercase or 0 if not
+ * Return: 1 if its uppercase, 0 if not
 */
 
 int _isupper(int n)
