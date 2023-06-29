@@ -2,7 +2,7 @@
 
 /**
  * _strncat - concatenates two strings
- * @des: pointer to destination input
+ * @dest: pointer to destination input
  * @src: pointer to source input
  * @n: most number of bytes from src
  * Return: dest
