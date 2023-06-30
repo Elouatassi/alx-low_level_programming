@@ -3,28 +3,28 @@
 
 /**
  * rot13 - encodes a string using rot13
- * @c: input string
+ * @s: input string
  * Return: encoded string
 */
 
-char *rot13(char *c)
+char *rot13(char *s)
 {
 	int i;
 	char donn[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char donnrot13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	char *p = c;
+	char *p = s;
 
-	while (*c)
+	while (*s)
 	{
 		for (i = 0; i <= 52; i++)
 		{
-			if (*c == donn[i])
+			if (*s == donn[i])
 			{
-				*c = donnrot13[i];
+				*s = donnrot13[i];
 				break;
 			}
 		}
-		c++;
+		s++;
 	}
 	return (p);
 }
