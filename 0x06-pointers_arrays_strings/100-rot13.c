@@ -9,19 +9,22 @@
 
 char *rot13(char *c)
 {
-	int i, j;
+	int i;
 	char donn[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char donnrot13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	for (i = 0; c[i] != '\0'; i++)
+	char *p = c;
+
+	while (*c)
 	{
-		for (j = 0; j < 52; j++)
+		for (i = 0; i <= 52; i++)
 		{
-			if (c[i] == donn[j])
+			if (*c == donn[i])
 			{
-				c[1] = donnrot13[j];
+				*c = donnrot13[i];
 				break;
 			}
 		}
+		c++;
 	}
-	return (c);
+	return (p);
 }
