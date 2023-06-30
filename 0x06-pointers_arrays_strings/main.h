@@ -26,6 +26,6 @@ int _putchar(char c);
 
 char *leet(char *);
 
-#include <stdio>
+#include <stdio.h>;
 
 
