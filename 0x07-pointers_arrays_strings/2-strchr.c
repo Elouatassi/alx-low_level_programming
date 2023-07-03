@@ -2,9 +2,9 @@
 
 /**
  * _strchr - locates a character in a string
- * @s: pointer to input
+ * @s: pointer to put the constant
  * @c: constant
- * Return: pointer s
+ * Return: pointer to s
 */
 
 char *_strchr(char *s, char c)
