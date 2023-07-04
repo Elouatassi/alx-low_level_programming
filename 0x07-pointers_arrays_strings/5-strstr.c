@@ -3,8 +3,8 @@
 
 /**
  * _strstr - locates a substring
- * @haystack: string
- * @needle: sting to locate
+ * @haystack: input
+ * @needle: input
  * Return: Always 0 (Success)
 */
 
@@ -17,8 +17,8 @@ char *_strstr(char *haystack, char *needle)
 
 		while (*a == *b && *b != '\0')
 		{
-			*a++;
-			*b++;
+			a++;
+			b++;
 		}
 
 		if (*b == '\0')
