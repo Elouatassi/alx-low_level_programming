@@ -23,13 +23,17 @@ int is_prime_number(int n)
 
 int check_prime(int n, int i)
 {
-	if (i >= n && n > 1)
-	{
-		return (1);
-	}
-	if (n % i == 0 || i <= 1)
+	if (n <= 1)
 	{
 		return (0);
+	}
+	if (n % i == 0 && i > 1)
+	{
+		return (0);
+	}
+	if ((n / i) < i)
+	{
+		return (1);
 	}
 	return (check_prime(n, i + 1));
 }
