@@ -16,13 +16,9 @@ int main(int argc, char *argv[])
 	while (--argc)
 	{
 		for (x = argv[argc]; *x; x++)
-		{
 			if (*x < 48 || *x > 57)
-			{
 				return (printf("Erroe\n"), 1);
-			}
-			som += atoi(argv[argc]);
-		}
+		som += atoi(argv[argc]);
 	}
 	printf("%d\n", som);
 	return (0);
