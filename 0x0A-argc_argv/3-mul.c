@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two numbers
  * @argc: Argument count
  * @argv: Argument vector
- * Return: 0-success or non-zero-fail
+ * Return: 0
 */
 
 int main(int argc, char *argv[])
