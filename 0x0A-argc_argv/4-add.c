@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (x = argv[argc]; *x; x++)
 			if (*x < 48 || *x > 57)
-				return (printf("Erroe\n"), 1);
+				return (printf("Error\n"), 1);
 		som += atoi(argv[argc]);
 	}
 	printf("%d\n", som);
