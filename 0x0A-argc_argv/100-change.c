@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			{
 				cents += coins / cent[x];
 				coins = coins % cent[x];
-				if (coin % cent[x] == 0)
+				if (coins % cent[x] == 0)
 				{
 					break;
 				}
