@@ -23,7 +23,7 @@ void _puts(char *str)
  * Return: integer converted from string
 */
 
-int _atoi(char *s)
+int _atoi(const char *s)
 {
 	unsigned int n = 0;
 	int i = 1;
@@ -48,7 +48,7 @@ int _atoi(char *s)
 
 void print_int(unsigned long int n)
 {
-	unsigned ling int divis = 1, i, num;
+	unsigned long int divis = 1, i, num;
 
 	for (i = 0; n / divis > 9; i++, divis /= 10)
 	;
