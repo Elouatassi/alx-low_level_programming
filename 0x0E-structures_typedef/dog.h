@@ -1,5 +1,5 @@
-#ifndef DOH_H
-#define DOH_H
+#ifndef DOG_H
+#define DOG_H
 
 /**
  * struct dog - dog struct
