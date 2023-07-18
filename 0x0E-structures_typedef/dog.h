@@ -3,8 +3,8 @@
 
 /**
  * struct dog - dog struct
- * @name: dog' name
- * @age: dog's Age
+ * @name: dog's name
+ * @age: dog's age
  * @owner: owner's name
  * Description: A long dog struct
 */
@@ -12,7 +12,7 @@
 struct dog
 {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
 }
 #endif
