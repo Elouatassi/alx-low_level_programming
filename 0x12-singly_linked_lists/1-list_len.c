@@ -1,7 +1,7 @@
 #include "liste.h"
 
 /**
- * liste_len - returns the number of elements in a linked list_t list
+ * list_len - determines length of linked list
  * @h: Pointer
  * Return: Size of list
 */
