@@ -19,5 +19,5 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (*head)
 		n_node->next = *head;
 	*head = n_node;
-	return (n_mode);
+	return (n_node);
 }
