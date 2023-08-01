@@ -1,9 +1,10 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * find_listint_loop_fl - finds a loop in a linked list
  * @head: Linked list to search
- * Return: Adress of node
+ * Return: Address of node
 */
 
 listint_t *find_listint_loop_fl(listint_t *head)
