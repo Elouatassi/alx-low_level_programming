@@ -23,10 +23,10 @@ int main(int ac, char **av)
 		dprintf(STDERR_FILENO, USAGE), exit(97);
 	from_fi = open(av[1], O_RDONLY);
 	if (from_fi == -1)
-		dprintf(STDERR_FILENO, ERR_NOREAD, av[1]),exit(98);
+		dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(98);
 	to_fi = open(av[2], O_WRONLY | O_CREAT | O_TRUNC, PERMISSIONS);
 	if (to_fi == -1)
-		dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99));
+		dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99);
 
 	while ((b = read(from_fi, buf, READ_BUF_SIZE)) > 0)
 		if (write(to_fi, buf, b) != b)
